@@ -1,0 +1,14 @@
+*.bak
+*.mak
+*.exe
+*.swp
+*.dll
+*.com
+*.dsk
+
+*.cfg
+*.tch
+*.dpr
+*.pif
+*.ovl
+*.tc
