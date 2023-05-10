@@ -3,12 +3,11 @@
 
 void main()
 {
+clrscr();
 int i;
-for (i=10; i<20; i++)
+for (i=1; i<=10; i++)
 {
-printf("%d\n",i);
-
+printf("%d\t",i);
 }
-
 getch();
 }
