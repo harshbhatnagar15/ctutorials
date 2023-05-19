@@ -5,7 +5,7 @@ void main()
 clrscr();
 int i,j, k;
 
-for (i=5; i>=1; i--)
+for (i=1; i<=5; i++)
 {
 
 for(k=5; k>=i; k--)
@@ -20,6 +20,9 @@ printf(" ");
 }
 getch();
 }
+
+
+
 
 
 
