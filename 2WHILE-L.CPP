@@ -1,3 +1,5 @@
+//write a programme to reverse the input number ?
+
 #include<stdio.h>
 #include<conio.h>
 void main ()

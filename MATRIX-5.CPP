@@ -32,18 +32,13 @@ for(i=0;i<3;i++)
 {
 	for(j=0;j<3;j++)
 	{
-		if(i+j==0)
-		printf("%d",arr[i][j]);
+	if(i==j)
+	printf("%d",arr[i][j]);
+	else
+	printf("-");
 	}
-	printf("\n\n");
+	printf("\n");
 }
 printf("\n\n-----------------\n");
 getch();
 }
-
-
-
-
-
-
-

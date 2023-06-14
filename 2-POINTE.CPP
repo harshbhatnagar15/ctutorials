@@ -15,7 +15,7 @@ ptr=&num;
 
 printf("value of num in ptr is: %d\n", *ptr);
 printf("address of num in ptr is: %u\n", ptr);
-printf("address of ptr is: %u\n", &ptr);
+printf("address of ptr is: %u\n", &jptr);
 
 getch();
 }
