@@ -12,12 +12,7 @@ int i=0;
 printf("Enter name: ");
 scanf("%s", &name);
 
-printf("Enter name2: ");
-scanf("%s", &name2);
-
-strcat(name, name2);
-
-printf("output is: %s", name);
+printf("output is: %s", strlwr(name));
 
 getch();
 }

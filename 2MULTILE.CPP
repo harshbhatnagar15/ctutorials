@@ -19,14 +19,22 @@ public:
 	}
 };
 
+class pqr:public xyz
+{
+public:
+	void f3()
+	{
+	cout<<"this is class pqr\n";
+	}
+};
 void main()
 {
 clrscr();
 
-xyz ob;
+pqr ob;
 
 ob.f1();
 ob.f2();
-
+ob.f3();
 getch();
 }
